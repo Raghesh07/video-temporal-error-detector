@@ -16,6 +16,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-         run: |
+         - name: Push to hub
           git push --force https://Raghesh07:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Raghesh07/video-temporal-detector main
 # trigger sync
