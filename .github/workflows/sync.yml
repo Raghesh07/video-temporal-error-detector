@@ -17,3 +17,4 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           git push --force https://Raghesh07:$HF_TOKEN@huggingface.co/spaces/Raghesh07/video-temporal-detector main
+# trigger sync
