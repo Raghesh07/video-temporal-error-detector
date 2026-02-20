@@ -1,6 +1,3 @@
-opencv-python
-numpy
 streamlit
 opencv-python-headless
 numpy
-torch  # (or tensorflow, if you're using it)
